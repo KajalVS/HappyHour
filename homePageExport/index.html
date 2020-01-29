@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="background-color: #f05f40;">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="icon ion-fork flex-grow-1"></i>&nbsp;HAPPY HOUR</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">SEARCH</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services">ABOUT</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio">Features</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">SIGN UP</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">LOGIN</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead text-center text-white d-flex" style="background-image: url('assets/img/pexels-photo-1268558.jpeg');opacity: 1;filter: brightness(100%);">
+        <div class="container my-auto">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h1 class="text-uppercase"><strong style="color: rgb(255,255,255);filter: brightness(100%);background-color: #f05f40;">&nbsp;Happy hour&nbsp;</strong></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="bg-primary" style="background-color: rgb(141,4,4);">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-lg-8 mx-auto text-center">
+                    <h2 class="text-white section-heading">Start Searching!</h2>
+                    <hr class="light my-4">
+                    <p class="text-faded mb-4">Search for your favourite happy hour specials!&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <form>
+                                <div class="form-group"><input class="form-control" type="text" name="TagSearchInput"  placeholder="#Food #Burger"></div>
+                                <div class="form-group"><input class="form-control" type="text" name="RestaurantSearchInput" id="RestaurantSearchInput" onkeyup="myFunction()" placeholder="Restaurant"></div>
+                                <div class="form-group"><button class="btn btn-primary btn-block text-nowrap text-primary bg-light" type="button">SEARCH!</button></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul id="myUL">
+                                <li><a href="#">Earls Tin Palace</a></li>
+                                <li><a href="#">Pigeon Hole</a></li>
+                                <li><a href="#">1410</a></li>
+                                <li><a href="#">Cannibale</a></li>
+                                <li><a href="#">Last Best Brewing Place</a></li>
+                                <li><a href="#">The Pig &amp; Duke</a></li>
+                                <li><a href="#">Ship &amp; Anchor</a></li>
+                            </ul>
+                            
+                            
+                            <script>
+								function myFunction() {
+    								var input, filter, ul, li, a, i, txtValue;
+   									input = document.getElementById("RestaurantSearchInput");
+    								filter = input.value.toUpperCase();
+    								ul = document.getElementById("myUL");
+    								li = ul.getElementsByTagName("li");
+    							
+    								for (i = 0; i < li.length; i++) {
+        								a = li[i].getElementsByTagName("a")[0];
+        								txtValue = a.textContent || a.innerText;
+        									if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            									li[i].style.display = "";
+        									} else {
+            									li[i].style.display = "none";
+       			 							}
+    								}
+								}
+							</script>
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="text-center card-title">Restaurant Name</h4><i class="fas fa-hamburger" id="burgerICON" style="width: px;padding: 10px;margin: 10px;"></i>
+                                    <h6 class="text-muted card-subtitle mb-2" style="filter: blur(0px) brightness(124%) contrast(0%) grayscale(0%) hue-rotate(0deg) saturate(0%);color: rgb(240,95,64);">SPECIALS</h6>
+                                    <div class="table-responsive" id="specialTable">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Special</th>
+                                                    <th>Description</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Burger</td>
+                                                    <td>Yummy foood....</td>
+                                                    <td>$4.00</td>
+                                                </tr>
+                                                <tr></tr>
+                                                <tr>
+                                                    <td>Cake</td>
+                                                    <td>Mmmmm cake</td>
+                                                    <td>$10</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div><a class="card-link" href="#"><i class="icon ion-social-instagram-outline"></i></a><a class="card-link" href="#"><i class="fa fa-twitter"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDlFm1j1a8OKDMqW0QnW-Q3fswddQGroLI&amp;q=Calgary&amp;zoom=13" width="100%" height="745"></iframe></div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Us</h2>
+                    <hr class="my-4">
+                    <p>ABOUT US WE ARE ......&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="mx-auto service-box mt-5"><i class="fa fa-heart fa-4x text-primary mb-3 sr-icons" data-aos="fade" data-aos-duration="200" data-aos-delay="600" data-aos-once="true"></i>
+                        <h3 class="mb-3">Favourites</h3>
+                        <p class="text-muted mb-0">You can save your favourite restaurants for later!</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="mx-auto service-box mt-5"><i class="icon ion-beer fa-4x text-primary mb-3 sr-icons" data-aos="fade" data-aos-duration="200" data-aos-delay="600" data-aos-once="true"></i>
+                        <h3 class="mb-3">Specials</h3>
+                        <p class="text-muted mb-0">Add and confirm specials on the go!</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="mx-auto service-box mt-5"><i class="fa fa-star fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true"></i>
+                        <h3 class="mb-3">Verification Points</h3>
+                        <p class="text-muted mb-0">Verify and add specials to earn some verification points!</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="mx-auto service-box mt-5"><i class="icon ion-android-restaurant fa-4x text-primary mb-3 sr-icons" data-aos="fade" data-aos-duration="200" data-aos-delay="600" data-aos-once="true"></i>
+                        <h3 class="mb-3">Manage</h3>
+                        <p class="text-muted mb-0">Manage your own restaurant by adding and verifying customer specials!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Happy Hour © 2019</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/creative.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/restaurantList.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

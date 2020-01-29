@@ -1,0 +1,320 @@
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.btn.btn-light.btn-xl.js-scroll-trigger {
+  /*align-items: center;*/
+}
+
+#item {
+  align-self: center;
+}
+
+.icon.ion-fork.flex-grow-1 {
+  font-size: x-large;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete {
+}
+
+#myUL {
+  border: 1px solid #ddd;
+  /* margin-top: -1px; */
+  padding: 12px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(240,95,64);
+  font-size: 18px;
+  display: block;
+  background-color: white;
+ /*  width: 20% */;
+  height: 160px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+
+
+#myUL a:hover:not(.header) {
+  background-color: #eee;
+}
+
+/* 
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+ */
+
+#burgerICON {
+  font-size: 50px;
+}
+
+#specialTable {
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+.button-like {
+  border: 2px solid $dark-gray;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 1rem;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3rem;
+  color: $dark-gray;
+  transition: all ease 0.4s;
+
+  span {
+    margin-left: 0.5rem;
+  }
+
+  .fa,
+  span {
+    transition: all ease 0.4s;
+  }
+
+  &:focus {
+    background-color: transparent;
+
+    .fa,
+    span {
+      color: $dark-gray;
+    }
+  }
+
+  &:hover {
+    border-color: $alert-color;
+    background-color: transparent;
+
+    .fa,
+    span {
+      color: $alert-color;
+    }
+  }
+}
+
+.liked {
+  background-color: $alert-color;
+  border-color: $alert-color;
+
+  .fa,
+  span {
+    color: $white;
+
+  }
+
+  &:focus {
+    background-color: $alert-color;
+
+    .fa,
+    span {
+      color: $white;
+    }
+  }
+
+  &:hover {
+    background-color: $alert-color;
+    border-color: $alert-color;
+
+    .fa,
+    span {
+      color: $white;
+    }
+  }
+}
+
+
+
+
+
+
+
+button.like{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	line-heigth: 50px;
+	border-radius: 50%;
+	color: rgba(0,150,136 ,1);
+	background-color:rgba(38,166,154 ,0.3);
+	border-color: rgba(0,150,136 ,1);
+	border-width: 1px;
+	font-size: 15px;
+}
+
+button.dislike{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	line-heigth: 50px;
+	border-radius: 50%;
+	color: rgba(255,82,82 ,1);
+	background-color: rgba(255,138,128 ,0.3);
+	border-color: rgba(255,82,82 ,1);
+	border-width: 1px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+html, body { height:100%; }
+
+.flexbox {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.fav-btn {
+	display:flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+
+@keyframes favme-anime {
+  0%   { 
+		opacity: 1;
+		font-size: ms(0);
+		-webkit-text-stroke-color: transparent;
+	}
+	25%	 { 
+		opacity:.6;
+		color: #FFF;
+		font-size: ms(-2);
+		-webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: #DC3232;
+	}
+	75%	 { 
+		opacity:.6;
+		color: #FFF;
+		font-size: ms(3);
+		-webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: #DC3232;
+	}
+  100% { 
+		opacity: 1;
+		font-size: ms(2);
+		-webkit-text-stroke-color: transparent;
+	}
+}
+
+@keyframes favme-hover {
+	from {
+		font-size: ms(3);
+	}
+	80% {
+		font-size: ms(2);
+	}
+}
+
+.favme {
+	display:block;
+	font-size: ms(2);
+	width: auto;
+	height: auto;
+	cursor: pointer;
+	box-shadow: none;
+	transition: all .2s ease;
+	color: #CBCDCE;
+	margin: 0;
+	
+	&.active {
+		color: #DC3232;
+	}
+	&:hover {
+		animation: favme-hover .3s infinite alternate;
+	}
+	&.is_animating {
+		animation: favme-anime .3s;
+	}
+}

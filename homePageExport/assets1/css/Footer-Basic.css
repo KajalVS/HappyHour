@@ -1,0 +1,123 @@
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.btn.btn-light.btn-xl.js-scroll-trigger {
+  /*align-items: center;*/
+}
+
+#item {
+  align-self: center;
+}
+
+.icon.ion-fork.flex-grow-1 {
+  font-size: x-large;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete {
+}
+
+#myUL {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  padding: 12px;
+  text-decoration: none;
+  color: rgb(240,95,64);
+  font-size: 16px;
+  display: block;
+  background-color: white;
+  /*width: 18%;*/
+  height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+#myUL a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  //background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display: block;
+}
+
+
+
+
+#burgerICON {
+  font-size: 50px;
+}
+
+#specialTable {
+  height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
